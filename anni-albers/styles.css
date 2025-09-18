@@ -28,7 +28,8 @@ p.callout {
     line-height: auto;
     font-style: italic;
     margin-left: calc(100% / 1 / 6);
-    width: 33.33%
+    width: 33.33%;
+    text-align: center;
 }
 
 #title {
