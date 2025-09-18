@@ -29,6 +29,7 @@ p.callout {
     font-style: italic;
     margin-left: calc(100% / 1 / 6);
     float: right;
+    width: 33.33%
 }
 
 #title {
