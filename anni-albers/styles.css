@@ -27,6 +27,8 @@ p.callout {
     font-size: 1rem;
     line-height: auto;
     font-style: italic;
+    margin-left: calc(100% / 1 / 6);
+    float: right;
 }
 
 #title {
@@ -38,6 +40,5 @@ p.callout {
 }
 
 #callout1 {
-    margin-left: calc(100% / 1 / 6);
-    float: right;
+    
 }
