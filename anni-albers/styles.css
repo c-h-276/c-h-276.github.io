@@ -36,10 +36,11 @@ p.callout {
     text-align: center;
 }
 
-#section1 {
+#section1,
+#section2,
+#section3,
+#section4,
+#section5, {
     margin-left: calc(100% * 1 / 6);
 }
 
-#callout1 {
-    
-}
