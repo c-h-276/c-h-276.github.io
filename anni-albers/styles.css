@@ -30,6 +30,7 @@ p.callout {
     margin-left: calc(100% / 1 / 6);
     width: 33.33%;
     text-align: center;
+    float: right;
 }
 
 #title {
@@ -40,31 +41,16 @@ p.callout {
     margin-left: calc(100% * 1 / 6);
 }
 
-#callout1 {
-    float: right;
-}
-
 #section2 {
-    margin-right: calc(100% * 1 / 6);
+    margin-left: calc(100% * 1 / 6);
 }
 
-#callout2 {
-    float: left;
-}
 #section3 {
     margin-left: calc(100% * 1 / 6);
 }
 
-#callout3 {
-    float: right;
-}
-
 #section4 {
-    margin-right: calc(100% * 1 / 6);
-}
-
-#callout4 {
-    float: left;
+    margin-left: calc(100% * 1 / 6);
 }
 
 #section5 {
