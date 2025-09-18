@@ -29,14 +29,14 @@ p.callout {
     font-style: italic;
 }
 
+#title {
+    text-align: center;
+}
+
 #section1 {
     margin-left: calc(100% * 1 / 6);
 }
 
-#section2 {
-    margin-left: calc(100% * 1 / 6);
-}
-
-#title {
-    text-align: center;
+#callout1 {
+    float: right;
 }
