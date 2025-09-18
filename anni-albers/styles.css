@@ -28,3 +28,7 @@ p.callout {
     line-height: auto;
     font-style: italic;
 }
+
+section1 {
+    margin-left: calc(100% * 1 / 6);
+}
