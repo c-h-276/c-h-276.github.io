@@ -1,7 +1,6 @@
-/* mobile design for Pacific Rhododenron webpage layout */
-
 * {
     box-sizing: border-box;
+    font-family: math
 }
 
 body {
@@ -20,18 +19,20 @@ header {
     height: 100vh;
     background-image: url("Pacific Rhododendron 1 - Walter Siegmund.jpeg");
     background-size: cover;
+    background-position: center center
 }
 
 #Title {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    color: whitesmoke
 }
 
 #Title h1 {
     position: absolute;
-    bottom: 0;
-    left: 0;
-
+    font-size: 3em;
+    width: calc(100vw - 2em);
+    bottom: 3em;
+    left: 0.5em;
+    color: whitesmoke
 }
