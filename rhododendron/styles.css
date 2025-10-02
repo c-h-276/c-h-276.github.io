@@ -45,8 +45,11 @@ header {
 
 #Picture2 {
     position: absolute;
-    width: 50vw;
-    height: 50vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Pacific Rhododendron 3 - Gary Monroe-1.jpeg");
+    background-size: cover;
+    background-position: center center
 }
 
 #Paragraph2 {
