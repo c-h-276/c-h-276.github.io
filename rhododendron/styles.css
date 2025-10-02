@@ -17,7 +17,7 @@ header {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url("Pacific Rhododendron 1 - Walter Siegmund.jpeg");
+    background-image: url("Pacific Rhododendron 2 - Gary Monroe-1.jpeg");
     background-size: cover;
     background-position: center center
 }
@@ -51,3 +51,23 @@ header {
     
 }
 
+#Paragraph1 {
+
+}
+
+#Picture2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Pacific\ Rhododendron\ 3\ -\ Gary\ Monroe-1.jpeg");
+    background-size: cover;
+    background-position: center center
+}
+
+#Paragraph2 {
+
+}
+
+#Refrences {
+    
+}
