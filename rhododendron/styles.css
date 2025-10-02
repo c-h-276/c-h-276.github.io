@@ -45,11 +45,8 @@ header {
 
 #Picture2 {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("Pacific\ Rhododendron\ 3\ -\ Gary\ Monroe-1.jpeg");
-    background-size: cover;
-    background-position: center center
+    width: 50vw;
+    height: 50vh;
 }
 
 #Paragraph2 {
@@ -62,6 +59,7 @@ header {
     padding-left: 10em;
     text-align: center;
 }
+
 @media screen and (orientation: landscape) {
 
     #Picture1 {
@@ -88,8 +86,4 @@ header {
         padding-left: 25em;
     }
 
-    #References {
-        text-align: center;
-    }
-    
 }
