@@ -1,3 +1,5 @@
+/* mobile design for Pacific Rhododenron webpage layout */
+
 * {
     box-sizing: border-box;
     font-family: math
@@ -35,4 +37,18 @@ header {
     bottom: 3em;
     left: 0.5em;
     color: whitesmoke
+}
+
+@media screen and (orientation: landscape) {
+
+    #Picture1 {
+        width: 150vw
+    }
+    
+    #Title {
+        width: 25vw;
+        left: 50vh;
+        bottom: 5em;
+    }
+    
 }
