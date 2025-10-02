@@ -81,7 +81,10 @@ header {
     }
 
     #Picture2 {
-        width: 150vw
+        width: 100vw;
+        height: 75vh;
+        margin-left: 300px;
+        margin-right: 300px;
     }
     
     #Paragraph2 {
