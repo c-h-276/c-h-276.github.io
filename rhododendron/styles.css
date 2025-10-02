@@ -26,11 +26,12 @@ header {
     position: absolute;
     width: 100vw;
     height: 100vh;
+    color: whitesmoke
 }
 
 #Title h1 {
     position: absolute;
     bottom: 0;
     left: 0;
-    color: whitesmoke
+
 }
