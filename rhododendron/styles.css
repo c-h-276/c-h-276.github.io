@@ -52,22 +52,15 @@ header {
 }
 
 #Paragraph1 {
-
+    text-align: justify;
 }
 
-#Picture2 {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("Pacific\ Rhododendron\ 3\ -\ Gary\ Monroe-1.jpeg");
-    background-size: cover;
-    background-position: center center
-}
 
 #Paragraph2 {
-
+    padding-right: 0.5em;
+    text-align: justify;
 }
 
 #Refrences {
-    
+    font-size: .75
 }
