@@ -39,6 +39,8 @@ header {
     color: whitesmoke
 }
 
+/*Put rest of mobile baseline layout here*/
+
 @media screen and (orientation: landscape) {
 
     #Picture1 {
