@@ -59,7 +59,7 @@ header {
 }
 
 #Refrences {
-    padding: 1.5em;
+    padding-left: 10em;
     text-align: center;
 }
 @media screen and (orientation: landscape) {
@@ -72,6 +72,24 @@ header {
         width: 25vw;
         left: 50vh;
         bottom: 5em;
+    }
+
+    #Paragraph1 {
+        padding-right: 0em;
+        padding-left: 25em;
+    }
+
+    #Picture2 {
+        width: 150vw
+    }
+    
+    #Paragraph2 {
+        padding-right: 0em;
+        padding-left: 25em;
+    }
+
+    #References {
+        text-align: center;
     }
     
 }
