@@ -1,5 +1,6 @@
 /*planning out photos and words*/
 
+
 div#photo1 {
     height: ;
 }
@@ -42,6 +43,7 @@ div#instructions2 {
 .photo1 {
     grid-row: 1 / 4;
     grid-column: 1 / 5;
+    padding-left: 15px
 }
 
 .title {
@@ -52,6 +54,7 @@ div#instructions2 {
 .ingredients1 {
     grid-row: 5 / 9;
     grid-column: 1 / 4;
+    padding-left: 50px;
 }
 
 .ingredients2 {
