@@ -1,31 +1,30 @@
 /*planning out photos and words*/
 
-#photo1 {
+div#photo1 {
+    height: ;
+}
+
+div#title {
 
 }
 
-#title {
+div#ingredients1 {
 
 }
 
-#ingredients1 {
+div#ingredients2 {
 
 }
 
-#ingredients2 {
+div#photo2 {
+    
+}
+
+div#instructions1 {
 
 }
 
-#photo2 {
-    max-height: 1500px;
-    max-width: 900px;
-}
-
-#instructions1 {
-
-}
-
-#instructions2 {
+div#instructions2 {
 
 }
 
@@ -35,6 +34,12 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+    grid-template-columns: 160px 160px 160px 160px 160px 160px;
+    grid-gap: 1em;
+}
+
+.photo1 {
+    grid-row: 1 / 3;
+    grid-column: 1 / 5;
 }
