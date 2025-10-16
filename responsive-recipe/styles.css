@@ -12,6 +12,8 @@
 }
 
 #photo1 {
+    height: 100%;
+    width: 100%;
     grid-column-start: ;
     grid-column-end: ;
 }
