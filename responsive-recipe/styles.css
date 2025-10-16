@@ -17,7 +17,8 @@
 }
 
 #photo2 {
-    
+    max-height: 1500px;
+    max-width: fit-content;
 }
 
 #instructions1 {
@@ -30,4 +31,10 @@
 
 @media screen and (orientation: landscape) {
 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
