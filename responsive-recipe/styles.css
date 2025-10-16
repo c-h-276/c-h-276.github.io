@@ -10,10 +10,3 @@
     justify-content: center;
     align-content: space-evenly;
 }
-
-#photo1 {
-    height: 100%;
-    width: 100%;
-    grid-column-start: ;
-    grid-column-end: ;
-}
