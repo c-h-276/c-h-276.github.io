@@ -1,0 +1,408 @@
+/* CSS for responsive menu */
+
+/* define variables */
+:root {
+    --nav-height: 3rem;
+    --nav-bkgd-color: pink;
+    --nav-text-color: rgb(145, 49, 94);
+    --nav-hover-bkgd-color: lightgray;
+    --nav-hover-text-color: rgb(145, 49, 94);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: var(--nav-height) 0 0 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    background-color: var(--nav-bkgd-color);
+}
+
+#navBurger {
+    position: relative;
+    display: block;
+    font-size: 2rem;
+    color: var(--nav-text-color);
+    padding: 0.1em 0 0 0.3em;
+    max-height: 2rem;
+}
+
+nav ul {
+    position: relative;
+    background-color: var(--nav-bkgd-color);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+nav.clicked>ul {
+    max-height: 90vh;
+}
+
+nav>ul>li {
+    position: relative;
+    background-color: var(--nav-bkgd-color);
+    display: block;
+    margin: 1rem;
+}
+
+nav>ul>li>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+nav>ul>li>a::after {
+    position: absolute;
+    content: "⌄";
+    right: 0.3rem;
+    top: 0.2rem;
+    color: inherit;
+    font-size: 110%;
+}
+
+nav>ul>li>ul {
+    margin: 0 0 0 1rem;
+    background-color: inherit;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+nav>ul>li.clicked>ul {
+    max-height: 90vh;
+}
+
+nav>ul>li>ul>li {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+
+nav>ul>li>ul>li:hover {
+    background-color: var(--nav-hover-bkgd-color);
+}
+
+nav>ul>li>ul>li:hover a {
+    color: var(--nav-hover-text-color);
+}
+
+
+/* ----- MEDIA QUERY for landscape/desktop layout ----- */
+@media screen and (orientation: landscape) {
+
+    #navBurger {
+        display: none;
+    }
+
+    nav>ul {
+        overflow: visible;
+    }
+
+    nav>ul>li {
+        float: left;
+        margin: 0.5rem;
+    }
+
+    nav>ul>li a {
+        padding-right: 0.5rem;
+        margin: 0;
+    }
+
+    nav>ul>li>ul {
+        margin: 0 0.5rem 0.5rem 0;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    nav>ul>li.clicked>ul {
+        display: block;
+        visibility: visible;
+    }
+
+    nav>ul>li>ul li {
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    nav>ul>li>a::after {
+        content: "";
+    }
+
+}
+
+
+/*First recipes*/
+
+
+
+@media (orientation: landscape) {
+    .container {
+        display: grid;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+        grid-template-columns: 160px 160px 160px 160px 160px 160px;
+        grid-gap: 1em;
+    }
+
+    .photo1 {
+        grid-row: 1 / 4;
+        grid-column: 1 / 5;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+
+    .title {
+        grid-row: 2 / 3;
+        grid-column: 5 / 7;
+        padding-left: 70px;
+    }
+
+    .ingredients1 {
+        grid-row: 4 / 7;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .ingredients2 {
+        grid-row: 7 / 8;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .photo2 {
+        grid-row: 4 / 8;
+        grid-column: 3 / 6;
+        padding-left: 50px;
+    }
+
+    .instructions1 {
+        grid-row: 8 / 10;
+        grid-column: 1 / 4;
+        padding-left: 35px;
+        padding-top: 25px;
+        padding-right: 55px;
+    }
+
+    .instructions2 {
+        grid-row: 8 / 10;
+        grid-column: 3 / 7;
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-left: 110px;
+    }
+
+    .box {
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    .container {
+        display: none;
+    }
+
+    .box {
+        display: grid;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+        grid-template-columns: 160px 160px 160px 160px 160px 160px;
+        grid-gap: 1em;
+    }
+
+    .photo1 {
+        grid-row: 1 / 4;
+        grid-column: 1 / 5;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+
+    .title {
+        grid-row: 2 / 3;
+        grid-column: 5 / 7;
+        padding-left: 70px;
+    }
+
+    .ingredients1 {
+        grid-row: 4 / 7;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .ingredients2 {
+        grid-row: 7 / 8;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .photo2 {
+        grid-row: 4 / 8;
+        grid-column: 3 / 6;
+        padding-left: 50px;
+    }
+
+    .instructions1 {
+        grid-row: 8 / 10;
+        grid-column: 1 / 4;
+        padding-left: 35px;
+        padding-top: 25px;
+        padding-right: 55px;
+    }
+
+    .instructions2 {
+        grid-row: 8 / 10;
+        grid-column: 3 / 7;
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-left: 110px;
+    }
+}
+
+/*planning out photos and words*/
+
+
+
+@media (orientation: landscape) {
+    .container {
+        display: grid;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+        grid-template-columns: 160px 160px 160px 160px 160px 160px;
+        grid-gap: 1em;
+    }
+
+    .photo1 {
+        grid-row: 1 / 4;
+        grid-column: 1 / 5;
+        padding-top: 40px;
+        padding-left: 250px;
+    }
+
+    .title {
+        grid-row: 2 / 3;
+        grid-column: 5 / 7;
+        padding-left: 70px;
+    }
+
+    .ingredients1 {
+        grid-row: 4 / 7;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .ingredients2 {
+        grid-row: 7 / 8;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .photo2 {
+        grid-row: 4 / 8;
+        grid-column: 3 / 6;
+        padding-left: 50px;
+    }
+
+    .instructions1 {
+        grid-row: 8 / 10;
+        grid-column: 1 / 4;
+        padding-left: 35px;
+        padding-top: 25px;
+        padding-right: 55px;
+    }
+
+    .instructions2 {
+        grid-row: 8 / 10;
+        grid-column: 3 / 7;
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-left: 110px;
+    }
+
+    .box {
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    .container {
+        display: none;
+    }
+
+    .box {
+        display: grid;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+        grid-template-columns: 160px 160px 160px 160px 160px 160px;
+        grid-gap: 1em;
+    }
+
+    .photo1 {
+        grid-row: 1 / 4;
+        grid-column: 1 / 5;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+
+    .title {
+        grid-row: 2 / 3;
+        grid-column: 5 / 7;
+        padding-left: 70px;
+    }
+
+    .ingredients1 {
+        grid-row: 4 / 7;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .ingredients2 {
+        grid-row: 7 / 8;
+        grid-column: 1 / 3;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    .photo2 {
+        grid-row: 4 / 8;
+        grid-column: 3 / 6;
+        padding-left: 50px;
+    }
+
+    .instructions1 {
+        grid-row: 8 / 10;
+        grid-column: 1 / 4;
+        padding-left: 35px;
+        padding-top: 25px;
+        padding-right: 55px;
+    }
+
+    .instructions2 {
+        grid-row: 8 / 10;
+        grid-column: 3 / 7;
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-left: 110px;
+    }
+}
