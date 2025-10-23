@@ -295,7 +295,7 @@ nav>ul>li>ul>li:hover a {
         grid-row: 1 / 4;
         grid-column: 1 / 5;
         padding-top: 40px;
-        padding-left: 250px;
+        padding-left: 15px;
     }
 
     .title {
