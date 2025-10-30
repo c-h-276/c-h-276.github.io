@@ -103,12 +103,12 @@ header {
     }
 
     body.darkMode {
-        background-color: darkgrey;
-        color: white;
+        background-color: black;
+        color: lightpink;
     }
 
     body.darkMode h1 {
-        color: red;
+        color: lightpink;
     }
 
 }
