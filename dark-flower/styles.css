@@ -92,8 +92,14 @@ header {
         padding-left: 25em;
     }
 
+    #Button {
+        padding-left: 5em;
+        padding-top: 1em;
+    }
+
     #toggleDarkMode {
         margin-top: 2em;
+        padding-left: 2em;
     }
 
     body.darkMode {
