@@ -30,93 +30,120 @@ section {
 	left: 0;
 	height: 100%;
 	width: 100vw;
-	scroll-snap-align: center; /* force scroll snap to center of sections */
+	/* force scroll snap to center of sections = scroll-snap-align: center;*/
 	box-shadow: inset 1em 0 1em black, -1em 0 1em black;
 }
 
 /*Info for changing all image aspects*/
 
+/*Page 1*/
+
 #drawing1 {
 	position: relative;
-	padding-bottom: 6em;
 	padding-left: 5em;
+	top: 5em;
 }
 
-	#add1 {
+	#addition1 {
 		position: relative;
-		bottom: 6em;
+		top: -90em;
+		left: 70em;
 	}
 
-	#add2 {
+#text1 {
+	position: relative;
+    color: #3e281e;
+    font-size: 2.5em;
+	font-family: "Times New Roman", Times, serif;
+	text-align-last: right;
+	bottom: 12em;
+	padding-right: 150px;
+}
+
+	#addition2 {
 		position: relative;
-		bottom: 6em;
+		top: -45em;
+		left: 15em;
 	}
+
+/*Page 2*/
 
 #drawing2 {
 	position: relative;
-	bottom: 6em;
+	bottom: 2em;
+	float: right;
+	right: 7em;
 }
 
-	#add3 {
+#text2 {
+	position: relative;
+    color: #3e281e;
+    font-size: 2.5em;
+	font-family: "Times New Roman", Times, serif;
+	padding-left: 5em;
+	top: 23em;
+	text-align: center
+}
+
+	#addition3 {
+		position: relative;
+		left: 5em;
+		top: 7em;
+	}
+
+	#addition4 {
+		position: relative;
+		top: em;
+	}
+
+	#addition5 {
 		position: relative;
 		bottom: 6em;
 	}
 
-	#add4 {
-		position: relative;
-		bottom: 6em;
-	}
-
-	#add5 {
-		position: relative;
-		bottom: 6em;
-	}
+/*Page 3*/
 
 #drawing3 {
 	position: relative;
 	bottom: 6em;
 }
 
-	#add6 {
+#text3 {
+	position: relative;
+    color: #3e281e;
+    font-size: 3rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+	#addition6 {
 		position: relative;
 		bottom: 6em;
 	}
+
+/*Page 4*/
 
 #drawing4 {
 	position: relative;
 	bottom: 6em;
 }
 
+#text4 {
+	position: relative;
+    color: #3e281e;
+    font-size: 3rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*Page 5*/
+
 #drawing5 {
 	position: relative;
 	bottom: 6em;
 }
 
-/*Info for all text sections*/
-
-#text1 {
+#text5 {
 	position: relative;
     color: #3e281e;
     font-size: 3rem;
 	font-family: "Times New Roman", Times, serif;
-	text-align-last: right;
-	bottom: 16em;
-	font-size: 35px;
-	padding-right: 100px;
-}
-
-#text2 {
-	position: absolute;
-}
-
-#text3 {
-	position: absolute;
-}
-
-#text4 {
-	position: absolute;
-}
-
-#text5 {
-	position: absolute;
 }
