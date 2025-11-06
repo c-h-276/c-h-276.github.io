@@ -21,6 +21,7 @@ body {
 
 p {
 	color: #3e281e;
+	text-align: center;
 }
 
 #page2 { left: 100vw; }
