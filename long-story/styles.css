@@ -24,9 +24,9 @@ p {
 	position: absolute;
     width: 100%;
     bottom: 10rem;
-    left: 0;
+    left: 300px;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     color: #3e281e;
     font-size: 3rem;
 	font-family: "Times New Roman", Times, serif;
