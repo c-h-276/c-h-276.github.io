@@ -50,6 +50,67 @@ section {
 }
 
 #drawing1 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+	#add1 {
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+
+	#add2 {
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+
+#drawing2 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+	#add3 {
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+
+	#add4 {
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+
+	#add5 {
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+
+#drawing3 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+	#add6 {
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+
+#drawing4 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+#drawing5 {
+	position: relative;
 	width: 300px;
 	height: 300px;
 }
