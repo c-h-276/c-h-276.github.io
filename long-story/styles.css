@@ -4,14 +4,15 @@
 
 html {
     scroll-snap-type: x mandatory;
+	padding: 0;
+	margin: 0;
+	font-family: "Titillium Web", sans-serif;
+    background-color: #7873ac;
 }
 
 body {
     overflow-x: auto; /*Show horizontal scroll*/
 	overflow-y: hidden; /*Hide vertical scroll*/
-}
-
-html, body {
 	padding: 0;
 	margin: 0;
 	font-family: "Titillium Web", sans-serif;
