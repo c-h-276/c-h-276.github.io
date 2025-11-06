@@ -41,3 +41,8 @@ section {
 	scroll-snap-align: center; /* force scroll snap to center of sections */
 	box-shadow: inset 1em 0 1em black, -1em 0 1em black;
 }
+
+#drawing1 {
+	width: 300px;
+	height: 300px;
+}
