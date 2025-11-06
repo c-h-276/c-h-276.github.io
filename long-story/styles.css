@@ -19,19 +19,6 @@ body {
     background-color: #7873ac;
 }
 
-p {
-	text-align: right;
-	position: absolute;
-    width: 100%;
-    bottom: 10rem;
-    left: 300px;
-    padding: 1rem;
-    text-align: left;
-    color: #3e281e;
-    font-size: 3rem;
-	font-family: "Times New Roman", Times, serif;
-}
-
 #page2 { left: 100vw; }
 #page3 { left: 200vw; }
 #page4 { left: 300vw; }
@@ -51,8 +38,8 @@ section {
 
 #drawing1 {
 	position: relative;
-	bottom: 6em;
-	left: 2em;
+	padding-bottom: 6em;
+	padding-left: 5em;
 }
 
 	#add1 {
@@ -109,22 +96,27 @@ section {
 
 #text1 {
 	position: relative;
-	text-align: left;
-	padding-bottom: 6em;
+    color: #3e281e;
+    font-size: 3rem;
+	font-family: "Times New Roman", Times, serif;
+	text-align-last: right;
+	bottom: 16em;
+	font-size: 35px;
+	padding-right: 100px;
 }
 
 #text2 {
-	position: relative;
+	position: absolute;
 }
 
 #text3 {
-	position: relative;
+	position: absolute;
 }
 
 #text4 {
-	position: relative;
+	position: absolute;
 }
 
 #text5 {
-	position: relative;
+	position: absolute;
 }
