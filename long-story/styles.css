@@ -51,67 +51,79 @@ section {
 
 #drawing1 {
 	position: relative;
-	width: 300px;
-	height: 300px;
 	bottom: 6em;
+	left: 2em;
 }
 
 	#add1 {
 		position: relative;
-		width: 300px;
-		height: 300px;
+		bottom: 6em;
 	}
 
 	#add2 {
 		position: relative;
-		width: 300px;
-		height: 300px;
+		bottom: 6em;
 	}
 
 #drawing2 {
 	position: relative;
-	width: 300px;
-	height: 300px;
+	bottom: 6em;
 }
 
 	#add3 {
 		position: relative;
-		width: 300px;
-		height: 300px;
+		bottom: 6em;
 	}
 
 	#add4 {
 		position: relative;
-		width: 300px;
-		height: 300px;
+		bottom: 6em;
 	}
 
 	#add5 {
 		position: relative;
-		width: 300px;
-		height: 300px;
+		bottom: 6em;
 	}
 
 #drawing3 {
 	position: relative;
-	width: 300px;
-	height: 300px;
+	bottom: 6em;
 }
 
 	#add6 {
 		position: relative;
-		width: 300px;
-		height: 300px;
+		bottom: 6em;
 	}
 
 #drawing4 {
 	position: relative;
-	width: 300px;
-	height: 300px;
+	bottom: 6em;
 }
 
 #drawing5 {
 	position: relative;
-	width: 300px;
-	height: 300px;
+	bottom: 6em;
+}
+
+/*Info for all text sections*/
+
+#text1 {
+	position: relative;
+	text-align: right;
+}
+
+#text2 {
+	position: relative;
+}
+
+#text3 {
+	position: relative;
+}
+
+#text4 {
+	position: relative;
+}
+
+#text5 {
+	position: relative;
 }
