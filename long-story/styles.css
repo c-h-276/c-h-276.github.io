@@ -7,7 +7,7 @@ html {
 	padding: 0;
 	margin: 0;
 	font-family: "Titillium Web", sans-serif;
-    background-color: #7873ac;
+    background-color: #fcd5bc;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: "Titillium Web", sans-serif;
-    background-color: #7873ac;
+    background-color: #fcd5bc;
 }
 
 #page2 { left: 100vw; }
@@ -30,8 +30,8 @@ section {
 	left: 0;
 	height: 100%;
 	width: 100vw;
-	/* force scroll snap to center of sections = scroll-snap-align: center;*/
-	box-shadow: inset 1em 0 1em black, -1em 0 1em black;
+	scroll-snap-align: center;
+	box-shadow: inset 1em 0 1em #fcd5bc, -1em 0 1em #fcd5bc;
 }
 
 /*Info for changing all image aspects*/
@@ -107,8 +107,8 @@ section {
 
 #drawing3 {
 	position: relative;
-	bottom: 6em;
-	left: 15em;
+	top: 6em;
+	left: 2em;
 }
 
 #text3 {
@@ -116,21 +116,22 @@ section {
     color: #3e281e;
     font-size: 2.5em;
 	font-family: "Times New Roman", Times, serif;
-	bottom: 2em;
+	bottom: 10em;
 	text-align: center;
 }
 
 	#addition6 {
 		position: relative;
-		top: -80em;
-		left: 50em;
+		top: -75em;
+		left: 70em;
 	}
 
 /*Page 4*/
 
 #drawing4 {
 	position: relative;
-	bottom: 6em;
+	top: 7em;
+	left: 70em;
 }
 
 #text4 {
@@ -138,18 +139,23 @@ section {
     color: #3e281e;
     font-size: 3rem;
 	font-family: "Times New Roman", Times, serif;
+	left: 3em;
+	bottom: 12em;
 }
 
 /*Page 5*/
 
 #drawing5 {
 	position: relative;
-	bottom: 6em;
+	top: 13em;
+	left: 40em;
 }
 
 #text5 {
 	position: relative;
+	text-align: center;
     color: #3e281e;
     font-size: 3rem;
 	font-family: "Times New Roman", Times, serif;
+	bottom: 16em;
 }
