@@ -109,7 +109,8 @@ section {
 
 #text1 {
 	position: relative;
-	text-align: right;
+	text-align: left;
+	padding-bottom: 6em;
 }
 
 #text2 {
