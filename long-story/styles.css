@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-snap-type: x mandatory;
+}
+
+body {
+    overflow-x: auto; /*Show horizontal scroll*/
+	overflow-y: hidden; /*Hide vertical scroll*/
+}
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -11,4 +20,22 @@ html, body {
 
 p {
 	color: #3e281e;
+}
+
+#page2 { left: 100vw; }
+#page3 { left: 200vw; }
+#page4 { left: 300vw; }
+#page5 { left: 400vw; }
+
+section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100vw;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	scroll-snap-align: center; /* force scroll snap to center of sections */
+	box-shadow: inset 1em 0 1em black, -1em 0 1em black;
 }
