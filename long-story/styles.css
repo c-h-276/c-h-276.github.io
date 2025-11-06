@@ -41,7 +41,7 @@ section {
 #drawing1 {
 	position: relative;
 	padding-left: 5em;
-	top: 5em;
+	top: 2em;
 }
 
 	#addition1 {
@@ -56,13 +56,13 @@ section {
     font-size: 2.5em;
 	font-family: "Times New Roman", Times, serif;
 	text-align-last: right;
-	bottom: 12em;
+	bottom: 15em;
 	padding-right: 150px;
 }
 
 	#addition2 {
 		position: relative;
-		top: -45em;
+		top: -57em;
 		left: 15em;
 	}
 
@@ -70,7 +70,7 @@ section {
 
 #drawing2 {
 	position: relative;
-	bottom: 2em;
+	bottom: -3em;
 	float: right;
 	right: 7em;
 }
@@ -81,24 +81,26 @@ section {
     font-size: 2.5em;
 	font-family: "Times New Roman", Times, serif;
 	padding-left: 5em;
-	top: 23em;
-	text-align: center
+	top: 20em;
+	text-align: center;
 }
 
 	#addition3 {
 		position: relative;
-		left: 5em;
+		left: 10em;
 		top: 7em;
 	}
 
 	#addition4 {
 		position: relative;
-		top: em;
+		top: -70em;
+		left: 7em;
 	}
 
 	#addition5 {
 		position: relative;
-		bottom: 6em;
+		top: -80em;
+		left: -13em;
 	}
 
 /*Page 3*/
@@ -106,18 +108,22 @@ section {
 #drawing3 {
 	position: relative;
 	bottom: 6em;
+	left: 15em;
 }
 
 #text3 {
 	position: relative;
     color: #3e281e;
-    font-size: 3rem;
+    font-size: 2.5em;
 	font-family: "Times New Roman", Times, serif;
+	bottom: 2em;
+	text-align: center;
 }
 
 	#addition6 {
 		position: relative;
-		bottom: 6em;
+		top: -80em;
+		left: 50em;
 	}
 
 /*Page 4*/
