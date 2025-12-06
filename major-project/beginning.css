@@ -63,6 +63,12 @@ button:hover {
     transition: color .2s ease;
 }
 
+a:link {
+  color: #DFD9D2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 @media (orientation: landscape) {
     body {
     display: grid;
