@@ -2,11 +2,10 @@ body {
     height: 100vh;
     color: #DFD9D2;
     background-color: #2F2B28;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: Trebuchet, sans-serif;
 }
 
 nav {
-    grid-area: navbar;
     background-color: lightgreen;
     padding-top: .15em;
     position: center;
@@ -14,21 +13,18 @@ nav {
 }
 
 aside {
-    grid-area: sidebar;
     background-color: lightblue;
     text-align: center;
     padding-top: 1.25em;
 }
 
 main {
-    grid-area: main;
     background-color: lightpink;
     padding: 1em;
     text-align: center;
 }
 
 footer {
-    grid-area: footer;
     background-color: orange;
     padding-top: .5em;
     padding-left: .5em;
