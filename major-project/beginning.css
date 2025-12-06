@@ -64,7 +64,7 @@ button:hover {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-areas: 
-    "nav nav"
+    "navbar navbar"
     "main sidebar"
     "footer footer";
     grid-template-rows: 40px 4fr 1fr;
@@ -84,7 +84,7 @@ button:hover {
         display: grid;
         grid-template-columns: 4fr 1fr;
         grid-template-areas: 
-        "nav nav"
+        "navbar navbar"
         "main main"
         "sidebar sidebar"
         "footer footer";
