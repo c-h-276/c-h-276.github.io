@@ -81,20 +81,21 @@ button:hover {
 
 @media (orientation: portrait) {
     body {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-areas: 
-    "navbar navbar"
-    "main main"
-    "sidebar sidebar"
-    "footer footer";
-    grid-template-rows: 40px 5fr 60px 3fr;
-    min-height: 100vh;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    /* background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif'); */
-    background-size: cover;
-    background-position: center center;
-    /* background-color: #2f2b28; */
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-template-areas: 
+        "navbar navbar"
+        "main main"
+        "sidebar sidebar"
+        "footer footer";
+        grid-template-rows: 40px 5fr 60px 3fr;
+        min-height: 100vh;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        /* background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif'); */
+        background-size: cover;
+        background-position: center center;
+        /* background-color: #2f2b28; */
+    }
 }
