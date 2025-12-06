@@ -1,9 +1,100 @@
 body {
+    height: 100vh;
+    color: #DFD9D2;
+    background-color: #2F2B28;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+nav {
+    grid-area: navbar;
+    background-color: lightgreen;
+    padding-top: .15em;
+    position: center;
+    text-align: center;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 1.25em;
+}
+
+main {
+    grid-area: main;
+    background-color: lightpink;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: orange;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    text-align: center;
+}
+
+button {
+    background-color: #2f2b28;
+    border: 2px solid,#221E1B;
+    color: #DFD9D2;
+    box-shadow: 0;
+    font-family: Trebuchet MS, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: background-color .2s ease;
+    
+}
+
+button:hover {
+    background-color: #EEAE46;
+    color: #221E1B;
+    transition: background-color .2s ease;
+    transition: color .2s ease;
+}
+
+@media (orientation: landscape) {
+    body {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "navbar navbar"
+    "main sidebar"
+    "footer footer";
+    grid-template-rows: 40px 4fr 1fr;
+    min-height: 100vh;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif');
+    /* background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif'); */
     background-size: cover;
     background-position: center center;
-    background-color: #2f2b28;
+    /* background-color: #2f2b28; */
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "navbar navbar"
+    "main main"
+    "sidebar sidebar"
+    "footer footer";
+    grid-template-rows: 40px 5fr 60px 3fr;
+    min-height: 100vh;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif'); */
+    background-size: cover;
+    background-position: center center;
+    /* background-color: #2f2b28; */
 }
