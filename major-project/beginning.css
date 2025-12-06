@@ -17,7 +17,7 @@ aside {
     grid-area: aside;
     background-color: lightblue;
     text-align: center;
-    padding-top: 1.25em;
+    padding: 1.25em;
 }
 
 main {
@@ -30,9 +30,7 @@ main {
 footer {
     grid-area: footer;
     background-color: orange;
-    padding-top: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding: .5em;
     text-align: center;
 }
 
@@ -65,7 +63,7 @@ button:hover {
     grid-template-columns: 4fr 1fr;
     grid-template-areas: 
     "navbar navbar"
-    "main sidebar"
+    "main aside"
     "footer footer";
     grid-template-rows: 40px 4fr 1fr;
     min-height: 100vh;
@@ -86,7 +84,7 @@ button:hover {
         grid-template-areas: 
         "navbar navbar"
         "main main"
-        "sidebar sidebar"
+        "aside aside"
         "footer footer";
         grid-template-rows: 40px 5fr 60px 3fr;
         min-height: 100vh;
