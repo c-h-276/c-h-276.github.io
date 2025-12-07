@@ -1,4 +1,4 @@
-const texts = [
+const messages = [
     "You are Kevin.",
     "An elegeble bachelor of 26 years-old living alone in his studio apartment.",
     "You are about to go on a blind date.",
@@ -11,16 +11,36 @@ const texts = [
     "You sit down, and the date begins.",
 ];
 
-let currentIndex = 0;
-const totalIndex = 9;
+window.onload = () => {
+        const textElement = document.getElementById("text1");
+        const button = document.getElementById("nextbtn");
 
-const changeTextButton = document.getElementById("nextbtn");
-const displayText = document.getElementById("text1");
+        let index = 0;
+        textElement.textContent = messages[index];
+        button.textContent = "Next";
 
-changeTextButton.addEventListener("click", () => {
-    displayText.textContent = texts[currentIndex];
-    currentIndex = (currentIndex + 1);
-});
+        button.onclick = () => {
+            index++;
 
-displayText.textContent = texts[currentIndex];
-currentIndex = (currentIndex + 1);
+            if (index < messages.length) {
+                textElement.textContent = messages[index];
+            }
+
+            // When the last message is reached:
+            if (index === messages.length - 1) {
+                button.remove(); // Remove old button
+
+                // Create new redirect button
+                const beginbtn = document.createElement("button");
+                beginbtn.textContent = "Begin Date";
+                beginbtn.className = "beginbtn";
+                document.getElementById("footer").appendChild(beginbtn);
+
+                // Redirect on click
+                beginbtn.onclick = () => {
+                    window.location.href = "https://example.com"; // CHANGE URL
+                };
+
+            }
+        };
+    };
