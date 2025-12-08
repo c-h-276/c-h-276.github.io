@@ -8,6 +8,11 @@ body {
     font-size: 17px;
 }
 
+p {
+    font-size: 25px;
+    color: #DFD9D2;
+}
+
 nav {
     grid-area: navbar;
     background-color: lightgreen;
