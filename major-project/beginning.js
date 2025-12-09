@@ -28,10 +28,10 @@ function adjustImageSize() {
     const sceneImage = document.getElementById("StartingScreen");
 
     // Make the image fit inside <main> while keeping aspect ratio
-    sceneImage.style.height = "100%";       // fill main section height
-    sceneImage.style.width = "auto";        // adjust width proportionally
-    sceneImage.style.maxWidth = "100%";     // never overflow main width
-    sceneImage.style.objectFit = "contain"; // keep full image visible
+    sceneImage.style.height = "100%";
+    sceneImage.style.width = "auto";
+    sceneImage.style.maxWidth = "100%";
+    sceneImage.style.objectFit = "contain";
 }
 
 window.onload = () => {

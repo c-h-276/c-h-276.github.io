@@ -13,6 +13,16 @@ const images = [
     "Normal-normal-1.png",
 ];
 
+function adjustImageSize() {
+    const sceneImage = document.getElementById("StartingScreen");
+
+    // Make the image fit inside <main> while keeping aspect ratio
+    sceneImage.style.height = "100%";
+    sceneImage.style.width = "auto";
+    sceneImage.style.maxWidth = "100%";
+    sceneImage.style.objectFit = "contain";
+}
+
 window.onload = () => {
     const textElement = document.getElementById("text1");
     const button = document.getElementById("nextbtn");
