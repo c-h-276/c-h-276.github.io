@@ -28,50 +28,49 @@ function adjustImageSize() {
     const sceneImage = document.getElementById("StartingScreen");
 
     // Make the image fit inside <main> while keeping aspect ratio
-    sceneImage.style.height = "100%";      // fill main section height
-    sceneImage.style.width = "auto";       // adjust width proportionally
-    sceneImage.style.maxWidth = "100%";    // never overflow main width
+    sceneImage.style.height = "100%";       // fill main section height
+    sceneImage.style.width = "auto";        // adjust width proportionally
+    sceneImage.style.maxWidth = "100%";     // never overflow main width
     sceneImage.style.objectFit = "contain"; // keep full image visible
 }
 
 window.onload = () => {
-        window.onload = () => {
-        adjustImageSize();
+    const textElement = document.getElementById("text1");
+    const button = document.getElementById("nextbtn");
+    const sceneImage = document.getElementById("StartingScreen");
+    let index = 0;
 
-        const button = document.getElementById("nextbtn");
-        const textElement = document.getElementById("text1");
-        let index = 0;
+    // Set initial content
+    sceneImage.src = images[index];
+    textElement.textContent = messages[index];
+    adjustImageSize();
 
-        // Set initial content
-        const sceneImage = document.getElementById("StartingScreen");
-        sceneImage.src = "Starting-screen.png";
-        textElement.textContent = "You are Kevin.";
-        button.textContent = "Next";
+    button.onclick = () => {
+        index++;
 
-        button.onclick = () => {
-            index++;
+        if (index < messages.length) {
+            textElement.textContent = messages[index];
+            sceneImage.src = images[index];
+            adjustImageSize(); // Resize after changing image
+        }
 
-            if (index < messages.length) {
-                textElement.textContent = messages[index];
-                sceneImage.src = images[index];
-            }
+        // When the last message is reached:
+        if (index === messages.length - 1) {
+            button.remove(); // Remove old button
 
-            // When the last message is reached:
-            if (index === messages.length - 1) {
-                button.remove(); // Remove old button
+            // Create new redirect button
+            const beginbtn = document.createElement("button");
+            beginbtn.textContent = "Begin Date";
+            beginbtn.className = "beginbtn";
+            document.getElementById("footer").appendChild(beginbtn);
 
-                // Create new redirect button
-                const beginbtn = document.createElement("button");
-                beginbtn.textContent = "Begin Date";
-                beginbtn.className = "beginbtn";
-                document.getElementById("footer").appendChild(beginbtn);
-
-                // Redirect on click
-                beginbtn.onclick = () => {
-                    window.location.href = "first-meeting.html";
-                };
-
-            }
-        };
+            // Redirect on click
+            beginbtn.onclick = () => {
+                window.location.href = "first-meeting.html";
+            };
+        }
     };
-}
+};
+
+// Also resize image on window resize
+window.onresize = adjustImageSize;
