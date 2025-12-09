@@ -22,8 +22,8 @@ window.onload = () => {
     const c2 = document.getElementById("choice2");
     const c3 = document.getElementById("choice3");
 
-    sceneImage.style.width = "100%";
-    sceneImage.style.height = "auto";
+    sceneImage.style.width = "auto";
+    sceneImage.style.height = "100%";
     sceneImage.style.objectFit = "contain";
 
     // hide choices by default

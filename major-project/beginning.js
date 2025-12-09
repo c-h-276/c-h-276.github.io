@@ -29,8 +29,8 @@ window.onload = () => {
         const button = document.getElementById("nextbtn");
         const sceneImage = document.getElementById("StartingScreen");
 
-        sceneImage.style.width = "100%";
-        sceneImage.style.height = "auto";
+        sceneImage.style.width = "auto";
+        sceneImage.style.height = "100%";
         sceneImage.style.objectFit = "contain";
 
         let index = 0;
