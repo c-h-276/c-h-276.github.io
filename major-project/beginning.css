@@ -35,10 +35,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
+    height: 100%;
     width: auto;
     overflow: hidden;
-    
+    align-items: flex-start;
+    object-fit: cover;
 }
 
 footer {
@@ -86,9 +87,10 @@ a:link {
     "navbar navbar"
     "main aside"
     "footer footer";
-    grid-template-rows: 40px 4fr 1.75fr;
+    grid-template-rows: 40px auto 300px;
     max-width: 100vw;
-    max-height: 100vh;
+    height: 100vh;
+    margin: 0;
     background-size: cover;
     background-position: center center;
     }
@@ -103,11 +105,12 @@ a:link {
         "main main"
         "aside aside"
         "footer footer";
-        grid-template-rows: 40px 5fr 1fr 8fr;
+        grid-template-rows: 40px auto 1fr 350px;
         width: 100vw;
         height: 100vh;
         background-size: cover;
         background-position: center center;
+        margin: 0;
     }
 
     aside {

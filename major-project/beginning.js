@@ -25,25 +25,27 @@ const images = [
 ];
 
 function adjustImageSize() {
-        const isPortrait = window.innerHeight > window.innerWidth;
+    const sceneImage = document.getElementById("StartingScreen");
 
-        if (isPortrait) {
-            sceneImage.style.maxHeight = "100vh";
-            sceneImage.style.maxWidth = "auto";
-        } else {
-            sceneImage.style.maxHeight = "100vh";
-            sceneImage.style.maxWidth = "auto";
-        }
-    }
+    // Make the image fit inside <main> while keeping aspect ratio
+    sceneImage.style.height = "100%";      // fill main section height
+    sceneImage.style.width = "auto";       // adjust width proportionally
+    sceneImage.style.maxWidth = "100%";    // never overflow main width
+    sceneImage.style.objectFit = "contain"; // keep full image visible
+}
 
 window.onload = () => {
-        const textElement = document.getElementById("text1");
-        const button = document.getElementById("nextbtn");
-        const sceneImage = document.getElementById("StartingScreen");
+        window.onload = () => {
+        adjustImageSize();
 
+        const button = document.getElementById("nextbtn");
+        const textElement = document.getElementById("text1");
         let index = 0;
-        textElement.textContent = messages[index];
-        sceneImage.src = images[index];
+
+        // Set initial content
+        const sceneImage = document.getElementById("StartingScreen");
+        sceneImage.src = "Starting-screen.png";
+        textElement.textContent = "You are Kevin.";
         button.textContent = "Next";
 
         button.onclick = () => {
