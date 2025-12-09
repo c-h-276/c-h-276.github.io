@@ -21,10 +21,15 @@ window.onload = () => {
     const c2 = document.getElementById("choice2");
     const c3 = document.getElementById("choice3");
 
+    // hide choices by default
+    c1.style.display = "none";
+    c2.style.display = "none";
+    c3.style.display = "none";
+
     let index = 0;
+
     textElement.textContent = messages[index];
     sceneImage.src = images[index];
-    button.textContent = "Next";
 
     button.onclick = () => {
         index++;
@@ -34,15 +39,13 @@ window.onload = () => {
             sceneImage.src = images[index];
         }
 
-        // When the last message is reached:
+        // last message reached
         if (index === messages.length - 1) {
-            button.remove(); // Remove old button
+            button.remove();
 
             c1.style.display = "block";
             c2.style.display = "block";
             c3.style.display = "block";
-            };
-
         }
     };
 };
