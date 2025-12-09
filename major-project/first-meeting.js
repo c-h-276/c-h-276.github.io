@@ -46,6 +46,7 @@ window.onload = () => {
     button.onclick = () => {
     if (index < messages.length - 1) {
         // show next message & image
+        index++;
         textElement.textContent = messages[index];
         sceneImage.src = images[index];
     } else {
