@@ -24,6 +24,27 @@ const images = [
     "Starting-screen.png",
 ];
 
+function adjustImageSize() {
+        const isPortrait = window.innerHeight > window.innerWidth;
+
+        sceneImage.style.display = "block";
+        sceneImage.style.margin = "0 auto";
+        sceneImage.style.width = "auto";
+        sceneImage.style.height = "auto";
+        sceneImage.style.objectFit = "contain";
+
+        if (isPortrait) {
+            sceneImage.style.maxHeight = "50vh";
+            sceneImage.style.maxWidth = "90%";
+        } else {
+            sceneImage.style.maxHeight = "70vh";
+            sceneImage.style.maxWidth = "80%";
+        }
+    }
+
+adjustImageSize();
+window.addEventListener("resize", adjustImageSize);
+
 window.onload = () => {
         const textElement = document.getElementById("text1");
         const button = document.getElementById("nextbtn");
