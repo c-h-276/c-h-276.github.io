@@ -44,17 +44,25 @@ window.onload = () => {
     sceneImage.src = images[index];
 
     button.onclick = () => {
-    if (index < messages.length - 1) {
-        // show next message & image
         index++;
-        textElement.textContent = messages[index];
-        sceneImage.src = images[index];
-    } else {
+
+        if (index < messages.length) {
+            textElement.textContent = messages[index];
+            sceneImage.src = images[index];
+            adjustImageSize(); // Resize after changing image
+        }
+
+        // When the last message is reached:
+        if (index === messages.length - 1) {
+            button.remove(); // Remove old button
+
+        } else {
         // last message reached, show choices
         button.style.display = "none";
         c1.style.display = "block";
         c2.style.display = "block";
         c3.style.display = "block";
-    }
-};
+            };
+        }
+    };
 };
