@@ -4,7 +4,7 @@ const messages = [
     "“I was pretty nervous to go on a blind date since I've never been on one before, but this isn't as bad as I thought it would be.”",
     "“I really like the restaurant, though. Bella helped me pick it out. It's really nice, isn't it?”",
     "“It is. You look really nice as well, the dress is a nice touch.”",
-    "“Thank you! I bought it a bit ago,”",
+    "“Thank you! I bought it a bit ago...”",
     "“This is the first occasion I had to actually wear it.”",
     "“Well, I'm honored to be the first to see it.”",
     "“You should be! I don't dress up for just anyone, you know. Haha!”",
@@ -59,7 +59,7 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Begin Date";
+            beginbtn.textContent = "Apps & Drinks";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
