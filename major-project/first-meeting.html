@@ -6,26 +6,40 @@
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>First Meeting</title>
+	<title>The Start Of The Game</title>
 
 	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
+	<link rel="stylesheet" href="first-meeting.css" media="all">
 
 	<!-- external and internal JavaScript -->
 	<!-- file renamed to "scripts.js" (plural) after the demo -->
-	<script src="scripts.js" defer></script>
+	<script src="first-meeting.js" defer></script>
 
 </head>
 
 <body>
 
-	<p>M: "Nice to meet you, I'm Marie! David and Bella have told me a lot about you."
+    <nav id="nav">
+        <a href="beginning.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-		*She's sitting in a sparkly black dress that ends at her shins. She seems excited and friendly*
-	</p>	
-		<a href="fm-1.html">[[Comment on the people]] It's nice to meet you too! I didn't expect there to be this many people here. +</a>
-		<a href="fm-1.html">[[Complement the restaurant]] Yeah, uh- Good choice of restaurant. -</a>
-		<a href="fm-2.html">[[Say something generic]] Sure, it's good to finally meet you. =</a>
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="choice1-test.html">Choice 1</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="choice1-test.html">Choice 2</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="choice1-test.html">Choice 3</a></div>
+    </aside>
+
+	<main id="main">
+		<img id="StartingScreen" src="Starting screen.png" alt="scene" style="max-width: 85%; height:auto;">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+		<!--<a href="first-meeting.html">[[First Meeting]]</a>-->
+	</footer>
+
 
 </body>
 

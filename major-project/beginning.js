@@ -12,9 +12,15 @@ const messages = [
 ];
 
 const images = [
-    "Ending 1 Wedding Bells.png",
-    "Ending 2 It Was Nice Anyways.png",
-    "Ending 3 It Could've Been Worse.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
+    "Starting Screen.png",
 ];
 
 
@@ -48,7 +54,7 @@ window.onload = () => {
 
                 // Redirect on click
                 beginbtn.onclick = () => {
-                    window.location.href = "https://example.com"; // CHANGE URL
+                    window.location.href = "first-meeting.html";
                 };
 
             }
