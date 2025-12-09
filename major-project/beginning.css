@@ -17,7 +17,6 @@ nav {
     grid-area: navbar;
     background-color: lightgreen;
     padding-top: .15em;
-    position: center;
     text-align: center;
 }
 
@@ -34,6 +33,8 @@ main {
     grid-area: main;
     background-color: lightpink;
     text-align: center;
+    max-height: 100%;
+    
 }
 
 footer {
@@ -46,9 +47,9 @@ footer {
 
 button {
     background-color: #2f2b28;
-    border: 2px solid,#221E1B;
+    border: 2px solid #221E1B;
     color: #DFD9D2;
-    box-shadow: 0;
+    box-shadow: none;
     font-family: Trebuchet MS, sans-serif;
     text-align: center;
     text-decoration: none;
@@ -68,9 +69,9 @@ button:hover {
 }
 
 a:link {
-  color: #DFD9D2;
-  background-color: transparent;
-  text-decoration: none;
+    color: #DFD9D2;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 @media (orientation: landscape) {
@@ -82,14 +83,10 @@ a:link {
     "main aside"
     "footer footer";
     grid-template-rows: 40px 4fr 1.75fr;
-    min-height: 100vh;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    /* background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif'); */
+    max-width: 100vw;
+    max-height: 100vh;
     background-size: cover;
     background-position: center center;
-    /* background-color: #2f2b28; */
     }
 }
 
@@ -103,14 +100,10 @@ a:link {
         "aside aside"
         "footer footer";
         grid-template-rows: 40px 5fr 1fr 8fr;
-        min-height: 100vh;
-        position: absolute;
         width: 100vw;
         height: 100vh;
-        /* background-image: url('restaurant-interior-red-background-vector-illustration_1138841-36350.avif'); */
         background-size: cover;
         background-position: center center;
-        /* background-color: #2f2b28; */
     }
 
     aside {
