@@ -38,13 +38,6 @@ main {
     overflow: hidden;
 }
 
-#StartingScreen {
-    height: 100%;
-    width: auto;
-    object-fit: cover;
-    display: block;
-}
-
 footer {
     grid-area: footer;
     background-color: orange;

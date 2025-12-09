@@ -24,31 +24,20 @@ const images = [
     "Starting-screen.png",
 ];
 
-function adjustImageSize() {
-        const isPortrait = window.innerHeight > window.innerWidth;
-
-        sceneImage.style.display = "block";
-        sceneImage.style.margin = "0 auto";
-        sceneImage.style.width = "auto";
-        sceneImage.style.height = "auto";
-        sceneImage.style.objectFit = "contain";
-
-        if (isPortrait) {
-            sceneImage.style.maxHeight = "50vh";
-            sceneImage.style.maxWidth = "90%";
-        } else {
-            sceneImage.style.maxHeight = "70vh";
-            sceneImage.style.maxWidth = "80%";
-        }
-    }
-
-adjustImageSize();
-window.addEventListener("resize", adjustImageSize);
-
 window.onload = () => {
         const textElement = document.getElementById("text1");
         const button = document.getElementById("nextbtn");
         const sceneImage = document.getElementById("StartingScreen");
+
+        const mainSection = document.getElementById("main");
+        sceneImage.style.display = "block";
+        sceneImage.style.position = "absolute";
+        sceneImage.style.top = "50%";
+        sceneImage.style.left = "50%";
+        sceneImage.style.height = "100%";       // full height of main
+        sceneImage.style.width = "auto";        // keep aspect ratio
+        sceneImage.style.transform = "translate(-50%, -50%)"; // center horizontally & vertically
+        sceneImage.style.objectFit = "cover";
 
         let index = 0;
         textElement.textContent = messages[index];
