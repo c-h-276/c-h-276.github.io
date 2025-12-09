@@ -12,14 +12,14 @@ const images = [
     "Normal-normal.png",
 ];
 
-const c1 = document.getElementById("choice1");
-const c2 = document.getElementById("choice2");
-const c3 = document.getElementById("choice3");
-
 window.onload = () => {
     const textElement = document.getElementById("text1");
     const button = document.getElementById("nextbtn");
     const sceneImage = document.getElementById("StartingScreen");
+
+    const c1 = document.getElementById("choice1");
+    const c2 = document.getElementById("choice2");
+    const c3 = document.getElementById("choice3");
 
     let index = 0;
     textElement.textContent = messages[index];
