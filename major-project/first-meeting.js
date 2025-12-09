@@ -43,24 +43,17 @@ window.onload = () => {
     textElement.textContent = messages[index];
     sceneImage.src = images[index];
 
-        button.onclick = () => {
-        // If we're on the last message
-        if (index === messages.length - 1) {
-        // hide next button
-            button.style.display = "none";
-
-            // show choices
-            1.style.display = "block";
-            c2.style.display = "block";
-            c3.style.display = "block";
-
-            // message & image already displayed, no need to increment
-            return;
-        }
-
-        // Otherwise, move to next message
-        index++;
+    button.onclick = () => {
+    if (index < messages.length - 1) {
+        // show next message & image
         textElement.textContent = messages[index];
         sceneImage.src = images[index];
-    };
+    } else {
+        // last message reached, show choices
+        button.style.display = "none";
+        c1.style.display = "block";
+        c2.style.display = "block";
+        c3.style.display = "block";
+    }
+};
 };
