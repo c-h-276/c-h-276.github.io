@@ -1,15 +1,15 @@
 const messages = [
     "“Nice to meet you, I'm Marie!”",
     "“David and Bella have told me a lot about you.”",
-    "She's sitting in a sparkly black dress that ends at her knees.",
+    "She's sitting in a sparkly black dress that ends at her shins.",
     "She seems excited and friendly.",
 ];
 
 const images = [
-    "Normal-closed-talking.png",
-    "Normal-normal-talking.png",
-    "Normal-normal.png",
-    "Normal-normal.png",
+    "Normal-closed-talking-1.png",
+    "Normal-normal-talking-1.png",
+    "Normal-normal-1.png",
+    "Normal-normal-1.png",
 ];
 
 window.onload = () => {
