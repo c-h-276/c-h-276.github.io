@@ -28,6 +28,7 @@ window.onload = () => {
 
     let index = 0;
 
+    // show first message & image
     textElement.textContent = messages[index];
     sceneImage.src = images[index];
 
@@ -37,12 +38,9 @@ window.onload = () => {
         if (index < messages.length) {
             textElement.textContent = messages[index];
             sceneImage.src = images[index];
-        }
-
-        // last message reached
-        if (index === messages.length - 1) {
-            button.remove();
-
+        } else {
+            // last message reached, show choices
+            button.style.display = "none";
             c1.style.display = "block";
             c2.style.display = "block";
             c3.style.display = "block";
