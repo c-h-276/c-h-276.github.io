@@ -24,7 +24,6 @@ const images = [
     "Starting-screen.png",
 ];
 
-
 window.onload = () => {
         const textElement = document.getElementById("text1");
         const button = document.getElementById("nextbtn");
