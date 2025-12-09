@@ -44,17 +44,17 @@ window.onload = () => {
     sceneImage.src = images[index];
 
     button.onclick = () => {
+    if (index < messages.length - 1) {
+        // show next message & image
         index++;
-
-        if (index < messages.length) {
-            textElement.textContent = messages[index];
-            sceneImage.src = images[index];
-        } else {
-            // last message reached, show choices
-            button.style.display = "none";
-            c1.style.display = "block";
-            c2.style.display = "block";
-            c3.style.display = "block";
-        }
-    };
+        textElement.textContent = messages[index];
+        sceneImage.src = images[index];
+    } else {
+        // last message reached, show choices
+        button.style.display = "none";
+        c1.style.display = "block";
+        c2.style.display = "block";
+        c3.style.display = "block";
+    }
+};
 };
