@@ -12,16 +12,16 @@ const messages = [
 ];
 
 const images = [
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
-    "Starting screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
+    "Starting-screen.png",
 ];
 
 

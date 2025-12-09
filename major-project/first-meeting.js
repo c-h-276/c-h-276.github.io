@@ -6,10 +6,10 @@ const messages = [
 ];
 
 const images = [
-    "Normal closed talking.png",
-    "Normal normal talking.png",
-    "Normal normal.png",
-    "Normal normal.png",
+    "Normal-closed-talking.png",
+    "Normal-normal-talking.png",
+    "Normal-normal.png",
+    "Normal-normal.png",
 ];
 
 
