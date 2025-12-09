@@ -25,7 +25,7 @@ aside {
     grid-area: aside;
     background-color: lightblue;
     text-align: center;
-    padding: 1.75em;
+    padding: 1.25em;
     padding-top: 4em;
     font-size: 17px;
 }
@@ -102,7 +102,7 @@ a:link {
         "main main"
         "aside aside"
         "footer footer";
-        grid-template-rows: 40px 5fr 60px 3fr;
+        grid-template-rows: 40px 5fr 1fr 8fr;
         min-height: 100vh;
         position: absolute;
         width: 100vw;
@@ -111,5 +111,13 @@ a:link {
         background-size: cover;
         background-position: center center;
         /* background-color: #2f2b28; */
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
     }
 }
