@@ -112,12 +112,4 @@ a:link {
         background-position: center center;
         /* background-color: #2f2b28; */
     }
-
-    aside {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 20px;
-    }
 }
