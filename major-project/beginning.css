@@ -27,12 +27,12 @@ aside {
     text-align: center;
     padding: 1.25em;
     padding-top: 4em;
+    font-size: 17px;
 }
 
 main {
     grid-area: main;
     background-color: lightpink;
-    padding: 1em;
     text-align: center;
 }
 
