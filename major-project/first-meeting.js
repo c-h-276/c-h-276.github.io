@@ -3,6 +3,7 @@ const messages = [
     "“David and Bella have told me a lot about you.”",
     "She's sitting in a sparkly black dress that ends at her shins.",
     "She seems excited and friendly.",
+    " ",
 ];
 
 const images = [
