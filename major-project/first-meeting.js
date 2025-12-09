@@ -10,6 +10,7 @@ const images = [
     "Normal-normal-talking-1.png",
     "Normal-normal-1.png",
     "Normal-normal-1.png",
+    "Normal-normal-1.png",
 ];
 
 function adjustImageSize() {
