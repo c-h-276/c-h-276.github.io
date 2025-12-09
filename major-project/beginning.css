@@ -15,14 +15,14 @@ p {
 
 nav {
     grid-area: navbar;
-    background-color: lightgreen;
+    background-color: #2F2B28;
     padding-top: .15em;
     text-align: center;
 }
 
 aside {
     grid-area: aside;
-    background-color: lightblue;
+    background-color: #221E1B;
     text-align: center;
     padding: 1.25em;
     padding-top: 4em;
@@ -31,7 +31,7 @@ aside {
 
 main {
     grid-area: main;
-    background-color: lightpink;
+    background-color: #2F2B28;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: orange;
+    background-color: #2F2B28;
     padding: .5em;
     text-align: center;
     padding-top: 3em;
