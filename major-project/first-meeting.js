@@ -42,27 +42,23 @@ window.onload = () => {
     // show first message & image
     textElement.textContent = messages[index];
     sceneImage.src = images[index];
+    adjustImageSize();
 
     button.onclick = () => {
-        index++;
-
-        if (index < messages.length) {
-            textElement.textContent = messages[index];
-            sceneImage.src = images[index];
-            adjustImageSize(); // Resize after changing image
-        }
-
-        // When the last message is reached:
+        // If we're on the last message already
         if (index === messages.length - 1) {
-            button.remove(); // Remove old button
-
-        } else {
-        // last message reached, show choices
-        button.style.display = "none";
-        c1.style.display = "block";
-        c2.style.display = "block";
-        c3.style.display = "block";
-            };
+            // Hide button and show choices
+            button.style.display = "none";
+            c1.style.display = "block";
+            c2.style.display = "block";
+            c3.style.display = "block";
+            return; // stop here
         }
+
+        // Otherwise, move to next message
+        index++;
+        textElement.textContent = messages[index];
+        sceneImage.src = images[index];
+        adjustImageSize();
     };
 };
