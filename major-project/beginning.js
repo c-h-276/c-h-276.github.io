@@ -11,12 +11,21 @@ const messages = [
     "You sit down, and the date begins.",
 ];
 
+const images = [
+    "Ending 1 Wedding Bells.png",
+    "Ending 2 It Was Nice Anyways.png",
+    "Ending 3 It Could've Been Worse.png",
+];
+
+
 window.onload = () => {
         const textElement = document.getElementById("text1");
         const button = document.getElementById("nextbtn");
+        const sceneImage = document.getElementById("StartingScreen");
 
         let index = 0;
         textElement.textContent = messages[index];
+        sceneImage.src = images[index];
         button.textContent = "Next";
 
         button.onclick = () => {
@@ -24,6 +33,7 @@ window.onload = () => {
 
             if (index < messages.length) {
                 textElement.textContent = messages[index];
+                sceneImage.src = images[index];
             }
 
             // When the last message is reached:
