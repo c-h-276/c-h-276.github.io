@@ -1,20 +1,29 @@
 const messages = [
-    "“Alright... And you miss?”",
-    "“Oh, yeah... Uhm...”",
-    "“Can I get a Virgin Daiquiri?”",
-    "“Coming right up! Feel free to have a look over the main course menu while I get those started for you guys.”",
-    "Thank you!”",
-    "The waiter walks away and comes back quickly with your drinks.",
+    "“Oh gosh... I graduated a while ago now.”",
+    "“What has it been, six years? I think?”",
+    "“Oh, I just was asking because I've been thinking about going for my masters recently.”",
+    "“Are you going to use it to get a better job?”",
+    "“Maybe...”",
+    "“I'm thinking about it.”",
+    "“How was marketing, though?”",
+    "“But yeah! I got a degree in management.”",
+    "“I'm apart of the marketing team of a sportswear company.”",
+    "“Maybe you've heard of it, BB-Sportz? It's small but it's gone a bit viral rcecently.”",
+    "“Generally I work on managing the people running the social media accounts.”",
 ];
 
 const images = [
-    "Neutral-1.png",
-    "Uneasy-talking-1.png",
-    "Neutral-talking-1.png",
-    "Normal-1.png",
-    "Normal-talking-1.png",
-    "Neutral-1.png",
-    "Neutral-1.png",
+    "Neutral-talking-2.png",
+    "Mad-talking-2.png",
+    "Neutral-2.png",
+    "Nutral-talking-2.png",
+    "Neutral-2.png",
+    "Normal-2.png",
+    "Normal-2.png",
+    "Neutral-talking-2.png",
+    "Normal-talking-2.png",
+    "Laughing-talking-2.png",
+    "Normal-talking-2.png",
 ];
 
 function adjustImageSize() {

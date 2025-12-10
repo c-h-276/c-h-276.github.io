@@ -10,12 +10,12 @@ const messages = [
 
 const images = [
     "Neutral-talking-2.png",
-    "Neutral-1.png",
+    "Neutral-2.png",
     "Upset-talking-2.png",
     "Neutral-talking-2.png",
     "Normal-talking-2.png",
-    "Normal-talking-1.png",
     "Normal-2.png",
+    "Neutral-2.png",
 ];
 
 function adjustImageSize() {
