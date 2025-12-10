@@ -1,7 +1,11 @@
 const messages = [
-    "“Well, I'm a graduate from Wharton and was transferred to New York when I was accepted for a job at BB-Sportz.”",
-    "“It's a pretty niche sportswear company, but it treats me well.”",
-    "“Oh, that's cool!”",
+    "“And she'll have the spagetti with meat sauce.”",
+    "“Alright, is that all for you guys?”",
+    "“Yes, thank you.”",
+    "The waiter walks away once more.",
+    "“Thanks for ordering, but I could've done that myself”",
+    "“I just wanted you to not have to worry about it.”",
+    "“Oh, thanks then.”",
 ];
 
 const images = [

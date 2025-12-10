@@ -1,13 +1,26 @@
 const messages = [
-    "“Well, I'm a graduate from Wharton and was transferred to New York when I was accepted for a job at BB-Sportz.”",
-    "“It's a pretty niche sportswear company, but it treats me well.”",
-    "“Oh, that's cool!”",
+    "“And she'll have a salad.”",
+    "Marie gives you a look.",
+    "“Alright-”",
+    "“Uh, no. I want spagetti with meat sauce.”",
+    "“Of course! Is that all for you guys?”",
+    "“Actually, could you give us a second?”",
+    "“Oh, yeah! Take your time, I'll be right back.”",
+    "“Thank you.”",
+    "“Marie looks at you with a glance only described as foul; That didn't go to plan.”",
 ];
 
 const images = [
-    "Neutral-talking-2.png",
-    "Normal-talking-2.png",
-    "Normal-2.png",
+    "Neutral-2.png",
+    "Mad-2.png",
+    "Mad-2.png",
+    "Uneasy-talking-2.png",
+    "Uneasy-2.png",
+    "Uneasy-talking-2.png",
+    "Uneasy-2.png",
+    "Laughing-talking-2.png",
+    "Mad-2.png",
+    "Mad-2.png",
 ];
 
 function adjustImageSize() {
@@ -46,13 +59,13 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Hobbies & Interests";
+            beginbtn.textContent = "Secret Ending";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "hobbies&interests.html";
+                window.location.href = "ending5.html";
             };
         }
     };
