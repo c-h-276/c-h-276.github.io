@@ -5,7 +5,7 @@ const messages = [
     "“Could I get a beer?”",
     "“Of course! Feel free to have a look over the main course menu while I get those started for you guys.”",
     "“Thank you.”",
-    "The waiter walks away and the conversation continues",
+    "The waiter walks away and comes back quickly with your drinks.",
 ];
 
 const images = [
@@ -55,7 +55,7 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Apps & Drinks";
+            beginbtn.textContent = "Work & School";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 

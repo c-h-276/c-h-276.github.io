@@ -4,13 +4,13 @@ const messages = [
     "“Can I get a Virgin Daiquiri?”",
     "“Coming right up! Feel free to have a look over the main course menu while I get those started for you guys.”",
     "Thank you!”",
-    "The waiter walks away and the conversation continues.",
+    "The waiter walks away and comes back quickly with your drinks.",
 ];
 
 const images = [
     "Neutral-1.png",
     "Uneasy-talking-1.png",
-    "Normal-talking-1.png",
+    "Neutral-talking-1.png",
     "Normal-1.png",
     "Normal-talking-1.png",
     "Neutral-1.png",
@@ -53,7 +53,7 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Apps & Drinks";
+            beginbtn.textContent = "Work & School";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
