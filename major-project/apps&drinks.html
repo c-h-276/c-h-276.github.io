@@ -9,25 +9,37 @@
 	<title>Apps & Drinks</title>
 
 	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
+	<link rel="stylesheet" href="beginning.css" media="all">
 
 	<!-- external and internal JavaScript -->
 	<!-- file renamed to "scripts.js" (plural) after the demo -->
-	<script src="scripts.js" defer></script>
+	<script src="apps&drinks.js" defer></script>
 
 </head>
 
 <body>
 
-	<p>*The waiter comes over and introduces himself. You don't pay mutch attention to his face.*
+    <nav id="nav">
+        <a href="beginning.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-		"Hi there guys, my name is West and I'll be your server tonight. How are you guys doing today?"
-	</p>
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="choice1-test.html">"We're doing well, how're you?"</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="choice1-test.html">We're doing alright, thank you. *off to the side* Have you picked a drink?</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="choice1-test.html">Can I get a beer? Thanks. *hands the drink menu off to the waiter*</a></div>
+    </aside>
 
-	<a href="a&d-1.html">[[Be Polite]] We're doing well, how're you? +</a>
-	<a href="a&d-2.html">[[Prioritize Marie]] We're doing alright, thank you. *off to the side* Have you picked a drink? =</a>
-	<a href="a&d-3.html">Can I get a beer? Thanks. *hands the drink menu off to the waiter* -</a>
+	<main id="main">
+		<img id="StartingScreen" src="Starting-screen.png">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+	</footer>
+
 
 </body>
 
-</html>>
+</html>
