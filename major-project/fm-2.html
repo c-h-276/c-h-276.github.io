@@ -9,29 +9,35 @@
 	<title>Say Something Generic</title>
 
 	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
+	<link rel="stylesheet" href="beginning.css" media="all">
 
 	<!-- external and internal JavaScript -->
 	<!-- file renamed to "scripts.js" (plural) after the demo -->
-	<script src="scripts.js" defer></script>
+	<script src="fm-2.js" defer></script>
 
 </head>
 
 <body>
 
-	<p>M: "I was pretty nervous to go on a blind date since I've never been on one before, but this isn't as bad as I
-		thought it would be."
-		I really like the restaurant, though. Bella helped me pick it out. It's really nice, isn't it?"
+	<nav id="nav">
+        <a href="first-meeting.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-		K: "It is pretty nice."
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="choice1-test.html">Choice 1</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="choice1-test.html">Choice 2</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="choice1-test.html">Choice 3</a></div>
+    </aside>
 
-		M: "I might come here again with family. It seems like a good place or birthdays and intimate gatherings.
-		"It would probably cost a ton, though."
-
-		K: "Yeah, this place does look pretty spendy."
-	</p>
-
-	<a href="apps&drinks.html">[[Apps And Drinks]]</a>
+	<main id="main">
+		<img id="StartingScreen" src="Starting-screen.png">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+	</footer>
 
 </body>
 
