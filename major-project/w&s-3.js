@@ -1,20 +1,13 @@
 const messages = [
-    "“Alright... And you miss?”",
-    "“Oh, yeah... Uhm...”",
-    "“Can I get a Virgin Daiquiri?”",
-    "“Coming right up! Feel free to have a look over the main course menu while I get those started for you guys.”",
-    "Thank you!”",
-    "The waiter walks away and comes back quickly with your drinks.",
+    "“Well, I'm a graduate from Wharton and was transferred to New York when I was accepted for a job at BB-Sportz.”",
+    "“It's a pretty niche sportswear company, but it treats me well.”",
+    "“Oh, that's cool!”",
 ];
 
 const images = [
-    "Neutral-1.png",
-    "Uneasy-talking-1.png",
-    "Neutral-talking-1.png",
-    "Normal-1.png",
-    "Normal-talking-1.png",
-    "Neutral-1.png",
-    "Neutral-1.png",
+    "Neutral-talking-2.png",
+    "Normal-talking-2.png",
+    "Normal-2.png",
 ];
 
 function adjustImageSize() {
