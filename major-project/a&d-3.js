@@ -1,20 +1,20 @@
 const messages = [
-    "“Thank you! Well... I had some help from Bella, it is super nice isn't it?”",
-    "“Yeah.”",
-    "“It's good you got here quickly, I just sat down.”",
-    "“I was pretty nervous to go on a blind date since I've never been on one before.”",
-    "“But this isn't so bad! Hehe!”",
-    "You are semi-listening while she says this and look to the table and pick up your drink menu.",
+    "“Alright... And you miss?”",
+    "“Oh, yeah... Uhm...”",
+    "“Can I get a Virgin Daiquiri?”",
+    "“Coming right up! Feel free to have a look over the main course menu while I get those started for you guys.”",
+    "Thank you!”",
+    "The waiter walks away and the conversation continues.",
 ];
 
 const images = [
+    "Neutral-1.png",
+    "Uneasy-talking-1.png",
     "Normal-talking-1.png",
     "Normal-1.png",
-    "Neutral-talking-1.png",
-    "Uneasy-talking-1.png",
-    "Laughing-1.png",
-    "Normal-1.png",
-    "Normal-1.png",
+    "Normal-talking-1.png",
+    "Neutral-1.png",
+    "Neutral-1.png",
 ];
 
 function adjustImageSize() {
