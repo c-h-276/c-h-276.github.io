@@ -11,16 +11,16 @@ const messages = [
 ];
 
 const images = [
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
-    "Starting-screen.png",
+    "Normal-talking-1.png",
+    "Normal-1.png",
+    "Uneasy-talking-1.png",
+    "Normal-talking-1",
+    "Normal-1.png",
+    "Laughing-talking-1.png",
+    "Mad-talking-1.png",
+    "Neutral-1.png",
+    "Laughing-talking-1.png",
+    "Normal-1.png",
 ];
 
 function adjustImageSize() {
