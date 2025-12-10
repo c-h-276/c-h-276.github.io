@@ -4,7 +4,7 @@ const messages = [
     "“Oh yeah!”",
     "“I'm going to get spagetti with meat sauce.”",
     "“I hear their marinara is to DIE for.”",
-    "“Sounds good. Let me see...”"
+    "“Sounds good. Let me see...”",
     "The chicken parmasean looks good.",
     "The waiter comes over again. As he's walking over, he takes out his server book and starts to ask your order for the main course",
     "“Have you guys chosen what you'd like to eat?”",
