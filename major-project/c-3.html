@@ -6,32 +6,39 @@
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
+	<title>Ask Her To Pay</title>
 
 	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
+	<link rel="stylesheet" href="beginning.css" media="all">
 
 	<!-- external and internal JavaScript -->
 	<!-- file renamed to "scripts.js" (plural) after the demo -->
-	<script src="scripts.js" defer></script>
+	<script src="c-3.js" defer></script>
 
 </head>
 
 <body>
 
-	<p>
-		*Marie looks at you with surprise*
+    <nav id="nav">
+        <a href="check.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-		M: "Oh!
-		"Uh, sure."
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="c-1.html">“Do you want to split it?”</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="c-2.html">“I'll get the bill.”</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="c-3.html">“Do you mind? I'm a little short on cash right now.”</a></div>
+    </aside>
 
-		*She takes the check and writes out the final amount before sticking her card inside.
-		The waiter comes and picks up the check immideately*
+	<main id="main">
+		<img id="StartingScreen" src="Starting-screen.png">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+	</footer>
 
-		W: "Thank you, Miss. I'll have that right back for you."
-	</p>
-
-	<a href="end-card.html">[[End Card]]</a>
 
 </body>
 

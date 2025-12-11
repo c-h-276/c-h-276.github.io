@@ -9,29 +9,36 @@
 	<title>The Check</title>
 
 	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
+	<link rel="stylesheet" href="beginning.css" media="all">
 
 	<!-- external and internal JavaScript -->
 	<!-- file renamed to "scripts.js" (plural) after the demo -->
-	<script src="scripts.js" defer></script>
+	<script src="check.js" defer></script>
 
 </head>
 
 <body>
 
-	<p>
-		*The waiter then walks over with the bill and sets it down on the table between the two of you*
+    <nav id="nav">
+        <a href="check.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-		W: "Here's your guys' check, take your time, no rush with it."
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="c-1.html">“Do you want to split it?”</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="c-2.html">“I'll get the bill.”</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="c-3.html">“Do you mind? I'm a little short on cash right now.”</a></div>
+    </aside>
 
-		M: "Thank you!"
+	<main id="main">
+		<img id="StartingScreen" src="Starting-screen.png">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+	</footer>
 
-		K: "Thanks."
-	</p>
-
-	<a href="c-1.html">[[Split it]] Do you want to split it? =</a>
-	<a href="c-2.html">[[Offer to Pay]] I'll get the bill. +</a>
-	<a href="c-3.html">[[Ask Her to Pay]] Do you mind? I'm a little short on cash right now. ---</a>
 
 </body>
 

@@ -12,7 +12,7 @@ const images = [
     "Neutral-2.png",
     "Normal-talking-.png",
     "Normal-2.png",
-    "Normal-2.png",
+    "Normal-3.png",
     "Normal-3.png",
     "Normal-3.png",
     "Neutral-3.png",
