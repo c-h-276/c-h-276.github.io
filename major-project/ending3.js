@@ -27,12 +27,32 @@ const messages = [
 ];
 
 const images = [
-    "Normal-4.png",
-    "Normal-talking-4.png",
-    "Normal-4.png",
-    "Normal-4.png",
-    "Normal-4.png",
+    "Uneasy-talking-5.png",
+    "Uneasy-5.png",
+    "Upset-talking-5.png",
+    "Upset-5.png",
+    "Upset-talking-5.png",
+    "Upset-5.png",
+    "Upset-5.png",
+    "Upset-5.png",
+    "Neutral-talking-5.png",
+    "Neutral-5.png",
+    "Upset-5.png",
+    "Uneasy-talking-5.png",
+    "Uneasy-5.png",
+    "Uneasy-5.png",
     "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png",
+    "Ending2.png"
 ];
 
 function adjustImageSize() {
