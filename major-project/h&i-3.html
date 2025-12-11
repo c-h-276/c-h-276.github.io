@@ -9,36 +9,36 @@
     <title>I Like To Read</title>
 
     <!-- external and internal CSS -->
-    <link rel="stylesheet" href="styles.css" media="all">
+    <link rel="stylesheet" href="beginning.css" media="all">
 
     <!-- external and internal JavaScript -->
     <!-- file renamed to "scripts.js" (plural) after the demo -->
-    <script src="scripts.js" defer></script>
+    <script src="h&i-3.js" defer></script>
 
 </head>
 
 <body>
 
-    <p>
-        M: "What do you like to read?"
+    <nav id="nav">
+        <a href="main-course.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-        K: "My favorite genres are science fiction and bibliography.
-        "And the occasional fantasy."
-        "My most recent reads have been interesting. I just finsihed reading Annihilation from Jeff Vandermeer."
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="h&i-1.html">“I like to travel.”</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="h&i-2.html">“I like to play sports.”</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="h&i-3.html">“I like to read.”</a></div>
+    </aside>
 
-        M: "How was it?"
+	<main id="main">
+		<img id="StartingScreen" src="Starting-screen.png">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+	</footer>
 
-        K: "Alright. I thought the writing was good but the ending kind of weirded me out."
-
-        M: "Really? I was going to ask if that was a reccomendation but I guess not."
-
-        K: "Yeah. I would rather introduce you to some more popular classics like Orwell's 1989 or The Martian. Stuff
-        that's GOOD-good."
-
-        M: "Good to know!"
-    </p>
-
-    <a href="eating.html">[[Eating]]</a>
 
 </body>
 

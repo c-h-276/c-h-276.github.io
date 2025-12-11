@@ -9,32 +9,36 @@
     <title>I Like To Travel</title>
 
     <!-- external and internal CSS -->
-    <link rel="stylesheet" href="styles.css" media="all">
+    <link rel="stylesheet" href="beginning.css" media="all">
 
     <!-- external and internal JavaScript -->
     <!-- file renamed to "scripts.js" (plural) after the demo -->
-    <script src="scripts.js" defer></script>
+    <script src="h&i-1.js" defer></script>
 
 </head>
 
 <body>
 
-    <p>
-        M: "Wow! Where've you been?"
+    <nav id="nav">
+        <a href="main-course.html"><button id='restartsection'>Restart Section</button></a>
+        <a href="beginning.html"><button id='restartgame'>Restart Game</button></a>
+    </nav>
 
-        K: "I travel all over, really.
-        "I've been all over the US in most major cities, Paris, Hong Kong, Berlin.
-        "I really like learning about new cultures and taking photos of new sights."
+    <aside id="aside">
+        <div id="choice1" style="display: none; font-size: 17px"><a href="h&i-1.html">“I like to travel.”</a></div><br><br><br><br>
+        <div id="choice2" style="display: none; font-size: 17px"><a href="h&i-2.html">“I like to play sports.”</a></div><br><br><br><br>
+        <div id="choice3" style="display: none; font-size: 17px"><a href="h&i-3.html">“I like to read.”</a></div>
+    </aside>
 
-        M: "That's really cool! I've always wanted to go to different places. I haven't seen past the east coast,
-        unfortunately."
+	<main id="main">
+		<img id="StartingScreen" src="Starting-screen.png">
+	</main>
+	
+    <footer id="footer">
+        <p id="text1"></p>
+        <button id="nextbtn">Next</button>
+	</footer>
 
-        K: "Really? Then we should go somewhere together."
-
-        M: "I'd like that a lot. Sounds fun!"
-    </p>
-
-    <a href="eating.html">[[Eating]]</a>
 
 </body>
 
