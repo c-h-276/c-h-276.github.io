@@ -5,7 +5,7 @@ const messages = [
     "“Sure, that sounds fun.”",
     "The next few dates came and went, but nothing ever came of your relationship.",
     "Marie said you were just too different from eachother.",
-    "You were hurt, but agreed that your relationship wan't right.",
+    "You were hurt, but agreed that your relationship wasn't right.",
     "So you two parted ways, expecting never to see eachother again.",
     "You go on a few more dates with different women, but none of them stick.",
     "Until you meet a girl named Ashley.",
