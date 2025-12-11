@@ -7,7 +7,7 @@ const messages = [
     "During which your food gets cold and your date stops listening",
     "“-And that's when I realised he never signed off on it in the first place!”",
     "“Hahahahahahaha!”",
-    "“Hahaha. That was a pretty funny story”",
+    "“Hahaha. That was a pretty funny story.”",
     "“You think so? I have a few more off the top of my head-”",
     "“No, it's fine!”",
     "“You should save them...for...other times!”",
