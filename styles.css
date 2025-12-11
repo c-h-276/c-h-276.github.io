@@ -58,13 +58,13 @@ a:hover {
 }
 
 button {
-    background-color: #E6DDC6;   /* original purple */
+    background-color: #E6DDC6;
     color: #181514;
     padding: 12px 24px;
     font-size: 18px;
-    border: none;               /* removes border */
-    outline: none;              /* removes outline */
-    border-radius: 12px;        /* rounded corners */
+    border: none;
+    outline: none;
+    border-radius: 12px;
     cursor: pointer;
     transition: 
         background-color 0.3s ease,
