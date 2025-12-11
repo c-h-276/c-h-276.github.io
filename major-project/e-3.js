@@ -4,27 +4,19 @@ const messages = [
     "“Well, I feel honored to be the first to see it. You look amazing.”",
     "“Haha, thanks!”",
     "“I don't get to wear this kind of stuff very often, so it's fun when I have an excuse.”",
-    "“You smile.”",
-    "“You think so? I have a few more off the top of my head-”",
-    "“No, it's fine!”",
-    "“You should save them...for...other times!”",
-    "“If you say so. You're missing out! Haha!”",
+    "You smile.",
+    "“You should dress up more often. You look good.”",
+    "“Thanks. I think I will.”",
 ];
 
 const images = [
+    "Laughing-3.png",
+    "Normal-talking-3.png",
     "Normal-3.png",
-    "Neutral-3.png",
-    "Neutral-3.png",
-    "Mad-3.png",
-    "Mad-3.png",
-    "Mad-3.png",
-    "Mad-3.png",
-    "Upset-3.png",
-    "Uneasy-talking-2.png",
-    "Uneasy-3.png",
-    "Uneasy-talking-3.png",
-    "Upset-talking-3.png",
-    "Uneasy-3.png",
+    "Laughing-3.png",
+    "Normal-talking-3.png",
+    "Normal-3.png",
+    "Normal-talking-3.png",
 ];
 
 function adjustImageSize() {
