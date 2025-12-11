@@ -11,7 +11,7 @@ const messages = [
     "But whatever.",
     "All that matters is that it went well.",
     "Right?",
-    "Ending 1 : Wedding Bells"
+    "Ending 1 : Wedding bells"
 ];
 
 const images = [
