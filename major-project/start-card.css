@@ -6,6 +6,7 @@ body {
     font-family: Trebuchet MS, sans-serif;
     overflow: hidden;
     font-size: 17px;
+    margin: auto;
 }
 
 p {
