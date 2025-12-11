@@ -78,3 +78,15 @@ button:hover {
     font-weight: bold;
     transform: scale(1.03);
 }
+
+@media (orientation: portrait) {
+    .three-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .color-box {
+        max-width: 500px;
+        width: 90%;
+    }
+}
