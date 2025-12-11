@@ -1,15 +1,25 @@
 const messages = [
-    "The waiter then turns to your date.",
-    "“And I'll have the spagetti with meat sauce.”",
-    "“Alright, I'll go get that started for you guys!”",
-    "The waiter walks away once more."
+    "“Really? What kinds?”",
+    "“Anything really.”",
+    "“Skiing, tennis, soccer. I even joined a hobbiests baseball team that plays games on the weekends.”",
+    "“That's so cool!”",
+    "“Yeah. Going out and moving my body makes me feel great.”",
+    "“I really like to have fun with people outside.”",
+    "“Wow. Maybe we can play together sometime!”",
+    "“Oh, yeah! We can totally play or do something together.”",
+    "“Hehe! Count me in.”",
 ];
 
 const images = [
+    "Neutral-talking-2.png",
     "Neutral-2.png",
-    "Laughing-talking-2.png",
-    "Laughing-2.png",
     "Normal-2.png",
+    "Laughing-talking-2.png",
+    "Normal-2.png",
+    "Normal-2.png",
+    "Normal-talking-2.png",
+    "Normal-2.png",
+    "Laughing-2.png",
 ];
 
 function adjustImageSize() {
@@ -48,13 +58,13 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Hobbies & Interests";
+            beginbtn.textContent = "Eating";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "hobbies&interests.html";
+                window.location.href = "eating.html";
             };
         }
     };

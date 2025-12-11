@@ -1,15 +1,24 @@
 const messages = [
-    "The waiter then turns to your date.",
-    "“And I'll have the spagetti with meat sauce.”",
-    "“Alright, I'll go get that started for you guys!”",
-    "The waiter walks away once more."
+    "“What do you like to read?”",
+    "“My favorite genres are science fiction and bibliographies.”",
+    "“And the occasional fantasy.”",
+    "“My most recent reads have been interesting. I just finsihed reading Annihilation from Jeff Vandermeer.”",
+    "“How was it?”",
+    "“Alright. I thought the writing was good but the ending kind of weirded me out.”",
+    "“Really? I was going to ask if that was a reccomendation but I guess not.”",
+    "“Yeah. I would rather introduce you to some more popular classics like Orwell's 1989 or The Martian. Stuff that's GOOD-good.”",
+    "“Good to know!”",
 ];
 
 const images = [
+    "Neutral-talking-2.png",
+    "Neutral-2.png",
+    "Normal-2.png",
+    "Laughing-talking-2.png",
+    "Mad-talking-2.png",
     "Neutral-2.png",
     "Laughing-talking-2.png",
-    "Laughing-2.png",
-    "Normal-2.png",
+    "Laughing-talking-2.png",
 ];
 
 function adjustImageSize() {
@@ -48,13 +57,13 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Hobbies & Interests";
+            beginbtn.textContent = "Eating";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "hobbies&interests.html";
+                window.location.href = "eating.html";
             };
         }
     };

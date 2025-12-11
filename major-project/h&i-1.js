@@ -17,6 +17,7 @@ const images = [
     "Mad-talking-2.png",
     "Neutral-2.png",
     "Laughing-talking-2.png",
+    "Laughing-talking-2.png",
 ];
 
 function adjustImageSize() {
@@ -55,13 +56,13 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Hobbies & Interests";
+            beginbtn.textContent = "Eating";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "hobbies&interests.html";
+                window.location.href = "eating.html";
             };
         }
     };
