@@ -58,7 +58,7 @@ window.onload = () => {
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "ending3.html";
+                window.location.href = "ending4.html";
             };
         }
     };
