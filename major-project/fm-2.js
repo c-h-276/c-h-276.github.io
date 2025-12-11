@@ -59,7 +59,7 @@ window.onload = () => {
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "apps&drinks.html";
+                window.location.href = "apps&drinks-.html";
             };
         }
     };
