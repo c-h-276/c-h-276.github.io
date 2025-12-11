@@ -1,22 +1,19 @@
 const messages = [
-    "“Oh! Thank you!”",
-    "“I haven't been able to wear this out anywhere yet, so I thought this would be a perfect occasion.”",
-    "“Well, I feel honored to be the first to see it. You look amazing.”",
-    "“Haha, thanks!”",
-    "“I don't get to wear this kind of stuff very often, so it's fun when I have an excuse.”",
-    "You smile.",
-    "“You should dress up more often. You look good.”",
-    "“Thanks. I think I will.”",
+    "Marie looks at you and smiles.",
+    "“Sure, that sounds good!”",
+    "As Marie hands you her debit card, you take the check and write out the final amount before sticking both of the cards inside.",
+    "You leave a 18% tip.",
+    "The waiter comes and picks up the check a minute later.",
+    "“Thank you, Sir. I'll have that right back for you.”",
 ];
 
 const images = [
-    "Laughing-3.png",
-    "Normal-talking-3.png",
-    "Normal-3.png",
-    "Laughing-3.png",
-    "Normal-talking-3.png",
-    "Normal-3.png",
-    "Normal-talking-3.png",
+    "Normal-4.png",
+    "Normal-talking-4.png",
+    "Normal-4.png",
+    "Neutral-4.png",
+    "Neutral-4.png",
+    "Normal-4.png",
 ];
 
 function adjustImageSize() {
@@ -55,13 +52,13 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Check";
+            beginbtn.textContent = "End Date";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "check.html";
+                window.location.href = "ending#.html";
             };
         }
     };
