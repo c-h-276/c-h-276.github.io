@@ -41,18 +41,18 @@ const images = [
     "Uneasy-talking-5.png",
     "Uneasy-5.png",
     "Uneasy-5.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png",
-    "Ending2.png"
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png",
+    "Ending-2.png"
 ];
 
 function adjustImageSize() {
