@@ -1,25 +1,33 @@
 const messages = [
-    "“What do you like to read?”",
-    "“My favorite genres are science fiction and bibliographies.”",
-    "“And the occasional fantasy.”",
-    "“My most recent reads have been interesting. I just finsihed reading Annihilation from Jeff Vandermeer.”",
-    "“How was it?”",
-    "“Alright. I thought the writing was good but the ending kind of weirded me out.”",
-    "“Really? I was going to ask if that was a reccomendation but I guess not.”",
-    "“Yeah. I would rather introduce you to some more popular classics like Orwell's 1989 or The Martian. Stuff that's GOOD-good.”",
-    "“Good to know!”",
+    "“Yeah, I will say I really enjoy my job.”",
+    "“I work for Adidas as a financial advisor in the upper ranks of the company. It's very interesting.”",
+    "“You see, there was this one project I was working on with a few coworkers and-”",
+    "As you talk, you regrettably don't notice Marie's eyes glaze over in boredom.",
+    "You talk for a solid 15 minutes without stopping.",
+    "During which your food gets cold and your date stops listening",
+    "“-And that's when I realised he never signed off on it in the first place!”",
+    "“Hahahahahahaha!”",
+    "“Hahaha. That was a pretty funny story”",
+    "“You think so? I have a few more off the top of my head-”",
+    "“No, it's fine!”",
+    "“You should save them...for...other times!”",
+    "“If you say so. You're missing out! Haha!”",
 ];
 
 const images = [
-    "Neutral-talking-2.png",
-    "Neutral-2.png",
-    "Neutral-2.png",
-    "Normal-2.png",
-    "Normal-talking-2.png",
-    "Neutral-2.png",
-    "Neutral-talking-2.png",
-    "Normal-2.png",
-    "Normal-talking-2.png",
+    "Normal-3.png",
+    "Neutral-3.png",
+    "Neutral-3.png",
+    "Mad-3.png",
+    "Mad-3.png",
+    "Mad-3.png",
+    "Mad-3.png",
+    "Upset-3.png",
+    "Uneasy-talking-2.png",
+    "Uneasy-3.png",
+    "Uneasy-talking-3.png",
+    "Upset-talking-3.png",
+    "Uneasy-3.png",
 ];
 
 function adjustImageSize() {
@@ -58,13 +66,13 @@ window.onload = () => {
 
             // Create new redirect button
             const beginbtn = document.createElement("button");
-            beginbtn.textContent = "Eating";
+            beginbtn.textContent = "Check";
             beginbtn.className = "beginbtn";
             document.getElementById("footer").appendChild(beginbtn);
 
             // Redirect on click
             beginbtn.onclick = () => {
-                window.location.href = "eating.html";
+                window.location.href = "check.html";
             };
         }
     };
