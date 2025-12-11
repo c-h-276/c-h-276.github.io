@@ -6,8 +6,9 @@ const messages = [
 ];
 
 const images = [
-    "Neutral-talking-2.png",
-    "Normal-talking-2.png",
+    "Neutral-2.png",
+    "Laughing-talking-2.png",
+    "Laughing-2.png",
     "Normal-2.png",
 ];
 
