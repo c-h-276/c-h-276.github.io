@@ -16,7 +16,8 @@ const images = [
     "Laughing-3.png",
     "Normal-talking-3.png",
     "Normal-3.png",
-    "Normal-talking-3.png",
+    "Normal-3.png",
+    "Normal-talking-3.png"
 ];
 
 function adjustImageSize() {
