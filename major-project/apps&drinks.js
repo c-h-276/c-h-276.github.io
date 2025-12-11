@@ -1,5 +1,5 @@
 const messages = [
-    "The waiter comes over and introduces himself. You don't pay mutch attention to his face.",
+    "The waiter comes over and introduces himself. You don't pay much attention to his face.",
     "“Hi there guys, my name is West and I'll be your server tonight. How are you guys doing today?”",
 ];
 
