@@ -6,10 +6,10 @@ const messages = [
 ];
 
 const images = [
-    "Neutral-3.png",
-    "Normal-3.png",
-    "Normal-talking-3.png",
-    "Normal-3.png",
+    "Neutral-4.png",
+    "Normal-4.png",
+    "Normal-talking-4.png",
+    "Normal-4.png",
 ];
 
 function adjustImageSize() {
