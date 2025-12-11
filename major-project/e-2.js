@@ -9,23 +9,21 @@ const messages = [
     "“No. Not recently.”",
     "“...”",
     "“To be fair, it happened to a bunch of my friends.”",
-    "“Ah. I see.”",
+    "“Sureeeeee...”",
 ];
 
 const images = [
-    "Normal-3.png",
+    "Neutral-talking-3.png",
     "Neutral-3.png",
-    "Neutral-3.png",
+    "Mad-3.png",
+    "Mad-3.png",
+    "Mad-talking-3.png",
     "Mad-3.png",
     "Mad-3.png",
     "Mad-3.png",
     "Mad-3.png",
-    "Upset-3.png",
-    "Uneasy-talking-2.png",
-    "Uneasy-3.png",
-    "Uneasy-talking-3.png",
-    "Upset-talking-3.png",
-    "Uneasy-3.png",
+    "Mad-3.png",
+    "Mad-talking-3.png",
 ];
 
 function adjustImageSize() {

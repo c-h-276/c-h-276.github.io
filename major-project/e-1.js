@@ -23,7 +23,7 @@ const images = [
     "Mad-3.png",
     "Mad-3.png",
     "Upset-3.png",
-    "Uneasy-talking-2.png",
+    "Uneasy-talking-3.png",
     "Uneasy-3.png",
     "Uneasy-talking-3.png",
     "Upset-talking-3.png",
