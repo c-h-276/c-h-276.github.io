@@ -5,13 +5,18 @@ const messages = [
     "The waiter walks away once more.",
     "“Thanks for ordering, but I could've done that myself”",
     "“I just wanted you to not have to worry about it.”",
-    "“Oh, thanks then.”",
+    "Ah, thanks then.”",
 ];
 
 const images = [
-    "Neutral-talking-2.png",
+    "Neutral-2.png",
+    "Neutral-2.png",
     "Normal-talking-2.png",
-    "Normal-2.png",
+    "Neutral-2.png",
+    "Uneasy-talking-2.png",
+    "Uneasy-2.png",
+    "Uneasy-talking-2.png",
+    "Uneasy-2.png",
 ];
 
 function adjustImageSize() {
